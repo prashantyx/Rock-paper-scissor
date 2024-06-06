@@ -4,20 +4,17 @@
 <head>
     <title>Rock Paper Scissors</title>
      <link rel="stylesheet" href="10-rockpaperscissorcomplete.css">
-    
+      
 </head>
 <body>
     <p class="title">Rock Paper Scissors</p>
-    <button class="move-button" onclick="
-     playGame('rock');
-    "><img src="rock-emoji.png" class="move-icon"></button>
+    <button class="move-button js-rock-button" ><img src="rock-emoji.png" class="move-icon"></button>
 
-    <button class="move-button"onclick="
-     playGame('paper');
-    "><img src="paper-emoji.png" class="move-icon"></button>
+    <button class="move-button
+    js-paper-button"
+    ><img src="paper-emoji.png" class="move-icon"></button>
 
-    <button class="move-button" onclick="
-     playGame('scissors');
+    <button class="move-button js-scissors-button
       "><img src="scissors-emoji.png" class="move-icon"></button> 
 
     <p class="js-result result"></p>
@@ -34,6 +31,10 @@
   updateScoreElement();
   " class="reset-score">
         Reset Score</button>
+
+     <button class="autoplay-button" onclick="
+     autoplay();
+     ">Auto Play</button>   
 
    <script src="10-rockpaperscissorcomplete.js"></script>
 </body>
