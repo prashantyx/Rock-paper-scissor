@@ -34,7 +34,8 @@ body{
     margin-top:60px;
 }
 
-.reset-score{
+.reset-score,
+.autoplay-button{
     padding-top:7px;
     font-size: 15px;
     border: none;
@@ -42,3 +43,4 @@ body{
     padding: 8px 15px;
     cursor: pointer;;
 }
+ 
